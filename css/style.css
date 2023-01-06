@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    padding-top: 0px;
+}
+
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+nav ul li{
+    display: inline;
+    font-size: 25px;
+    padding: 5px 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    }
+
+
+.fondo {
+    background-image: url(../assets/img/CANCHA.JPG);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    padding: 200px 50px;
+    color: white;
+}
+
+.quienesSomos{
+    text-align: center;
+}
+
+.quienesSomos h2{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+.quienesSomos p{
+    font-family: 'Glegoo', serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.fondoColor{
+    background-color: rgb(207, 204, 204);
+}
+
+.socios {  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 60px;
+    margin-top: 30px;
+}
+
+.socios div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.socios div img{
+    border: 1px solid white ;
+    border-radius: 50%;
+    width: 400px;
+}
+
+.socios div h3{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 30px;
+}
+
+.socios div p{
+    font-family: 'Glegoo', serif;
+    font size: 25px;
+}
+
+.redes {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+}
+
+.redes div a img{
+    width: 50px;
+    padding-top: 2px;
+    margin: 3px;
+}
+
+.fondoDos{
+    background-image: url(../assets/img/foto\ pelota2.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center
+}
+
+.fondoDos h2{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 100px;    
+}
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 700px;
+
+}
+
+.servicios div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+    border-radius: 50px;
+    overflow: auto;
+    width: 600px;
+    margin: 100px;
+}
+
+.servicios div img{
+    width: 300px;
+    height: 300px;
+}
+
+.servicios div h3{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.servicios div p{
+    font-family: 'Glegoo', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.jugadores {
+    display: flex;
+    flex-direction: column;
+}
+
+.juadores section div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.jugadores section div img{
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.juador{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.lucas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+
+.texto {
+    text-align: center;
+    width: 500px;
+}
+
+.descripcion {
+    font-family: 'Glegoo', serif;
+    font-size: 25px;
+    
+}
+
+.cursiva {
+    font-family: 'Hi Melody', cursive;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.video{
+    margin: 50px;
+    align-items: center;
+}
+
+
+.contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactos section {
+    background-color: white;
+    border-color: rgb(79, 76, 76);
+    width: 800px;
+    margin: 100px;
+}
+
+
+.logos div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.logos div img{
+    width: 150px;
+}
+
+.logos p{
+    font-size: 40px;
+    padding-left: 50px;
+    font-family: 'Glegoo', serif;
+
+}
+
+.donde h3{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.mapa {
+    padding-left: 100px;
+}
+

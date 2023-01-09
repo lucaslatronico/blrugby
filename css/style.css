@@ -416,7 +416,7 @@ input {
         font-size: 20px;
     }
 
-    .socios div p {
+    .socios div div p {
         font-size: 10px;
     }
 
@@ -483,6 +483,7 @@ input {
 
     .fondo{
         height: 100px;
+        display: flex;
     }
 
     h1{
@@ -529,9 +530,11 @@ input {
         flex-direction: column;
     }
 
-    .socios div p{
-        font-size: 5px;
+    .socios div div p{
+        font-size: 7px;
         flex-direction: column;
+        text-align: center;
+        width: 125px;
     }
 
     .redes{
